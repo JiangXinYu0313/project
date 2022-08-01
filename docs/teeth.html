@@ -516,13 +516,13 @@ project makes it easier to run your code on other machines.</p>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrong975e18d">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongecf8c98">
 <span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>Repository version:</strong> 975e18d
+aria-hidden="true"></span> <strong>Repository version:</strong> ecf8c98
 </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrong975e18d"
+<div id="strongRepositoryversionstrongecf8c98"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -531,7 +531,7 @@ and connecting the code version to the results is critical for
 reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version 975e18d.
+The results in this page were generated with repository version ecf8c98.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -547,7 +547,6 @@ were generated:
 <pre><code>
 Untracked files:
     Untracked:  analysis/Cite_seq_QC_normal_pipline.R
-    Untracked:  data/teeth.csv
 
 </code></pre>
 <p>
@@ -594,6 +593,23 @@ Message
 <tbody>
 <tr>
 <td>
+html
+</td>
+<td>
+8c8b2a7
+</td>
+<td>
+JiangXinYu0313
+</td>
+<td>
+2022-08-01
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
 Rmd
 </td>
 <td>
@@ -629,10 +645,121 @@ head(teeth)</code></pre>
 6 10.0   VC  0.5</code></pre>
 <pre class="r"><code>boxplot(len ~ dose, data = teeth)</code></pre>
 <p><img src="figure/teeth.Rmd/boxplots-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-boxplots-1">
+Past versions of boxplots-1.png
+</button>
+</p>
+<div id="fig-boxplots-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+8c8b2a7
+</td>
+<td>
+JiangXinYu0313
+</td>
+<td>
+2022-08-01
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <pre class="r"><code>boxplot(len ~ supp, data = teeth)</code></pre>
 <p><img src="figure/teeth.Rmd/boxplots-2.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-boxplots-2">
+Past versions of boxplots-2.png
+</button>
+</p>
+<div id="fig-boxplots-2" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+8c8b2a7
+</td>
+<td>
+JiangXinYu0313
+</td>
+<td>
+2022-08-01
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <pre class="r"><code>boxplot(len ~ dose + supp, data = teeth)</code></pre>
 <p><img src="figure/teeth.Rmd/boxplots-3.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-boxplots-3">
+Past versions of boxplots-3.png
+</button>
+</p>
+<div id="fig-boxplots-3" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+8c8b2a7
+</td>
+<td>
+JiangXinYu0313
+</td>
+<td>
+2022-08-01
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <pre class="r"><code># Observed difference in teeth length due to supplement method
 mean(teeth$len[teeth$supp == &quot;OJ&quot;]) - mean(teeth$len[teeth$supp == &quot;VC&quot;])</code></pre>
 <pre><code>[1] 3.7</code></pre>
